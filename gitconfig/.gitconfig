@@ -3,7 +3,7 @@
 [user]
 	name = aruzdh
 	email = aruzdh@gmail.com
-	signkey = 767740E5
+	signingkey = CEEA7E88
 [core]
 	editor = nv --wait
 	autocrlf = input
