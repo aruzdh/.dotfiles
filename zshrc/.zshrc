@@ -49,11 +49,24 @@ export FZF_DEFAULT_OPTS="--ansi --preview='bat --color=always --style=numbers,ch
  
 export GPG_TTY=$TTY
 
+# --------------------------- PNPM ---------------------------
+
+export PNPM_HOME="$HOME/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+
 # --------------------------- ALIASES ---------------------------
 
-# FZF
+# GEMINI
+alias gm="gemini"
 
+# FZF
 alias f="fzf"
+
+# TYPST
+alias tc="typst compile"
 
 # NVIM
 alias nv="nvim"
