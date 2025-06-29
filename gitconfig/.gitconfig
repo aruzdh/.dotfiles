@@ -1,0 +1,11 @@
+[init]
+	defaultBranch = main
+[user]
+	name = aruzdh
+	email = aruzdh@gmail.com
+	signkey = 767740E5
+[core]
+	editor = nv --wait
+	autocrlf = input
+[commit]
+	gpgsign = true

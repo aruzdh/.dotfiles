@@ -1,0 +1,137 @@
+{
+    "global": { "show_in_menu_bar": false },
+    "profiles": [
+        {
+            "devices": [
+                {
+                    "identifiers": {
+                        "is_pointing_device": true,
+                        "product_id": 827,
+                        "vendor_id": 1386
+                    },
+                    "ignore": false
+                },
+                {
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "product_id": 641,
+                        "vendor_id": 1452
+                    },
+                    "simple_modifications": [
+                        {
+                            "from": { "key_code": "caps_lock" },
+                            "to": [{ "key_code": "left_control" }]
+                        },
+                        {
+                            "from": { "key_code": "delete_or_backspace" },
+                            "to": [{ "key_code": "vk_none" }]
+                        },
+                        {
+                            "from": { "key_code": "grave_accent_and_tilde" },
+                            "to": [{ "key_code": "left_shift" }]
+                        },
+                        {
+                            "from": { "key_code": "left_command" },
+                            "to": [{ "key_code": "spacebar" }]
+                        },
+                        {
+                            "from": { "key_code": "left_control" },
+                            "to": [{ "key_code": "left_command" }]
+                        },
+                        {
+                            "from": { "key_code": "return_or_enter" },
+                            "to": [{ "key_code": "delete_or_backspace" }]
+                        },
+                        {
+                            "from": { "key_code": "right_shift" },
+                            "to": [{ "key_code": "escape" }]
+                        },
+                        {
+                            "from": { "key_code": "spacebar" },
+                            "to": [{ "key_code": "return_or_enter" }]
+                        },
+                        {
+                            "from": { "key_code": "escape" },
+                            "to": [{ "key_code": "vk_none" }]
+                        }
+                    ]
+                }
+            ],
+            "fn_function_keys": [
+                {
+                    "from": { "key_code": "f4" },
+                    "to": [{ "key_code": "vk_none" }]
+                },
+                {
+                    "from": { "key_code": "f6" },
+                    "to": [{ "apple_vendor_top_case_key_code": "keyboard_fn" }]
+                },
+                {
+                    "from": { "key_code": "f10" },
+                    "to": [{ "key_code": "vk_none" }]
+                }
+            ],
+            "name": "Default profile",
+            "selected": true,
+            "simple_modifications": [
+                {
+                    "from": { "key_code": "keypad_0" },
+                    "to": [{ "mouse_key": { "vertical_wheel": 64 } }]
+                },
+                {
+                    "from": { "key_code": "keypad_1" },
+                    "to": [{ "pointing_button": "button1" }]
+                },
+                {
+                    "from": { "key_code": "keypad_2" },
+                    "to": [{ "mouse_key": { "y": 1536 } }]
+                },
+                {
+                    "from": { "key_code": "keypad_3" },
+                    "to": [{ "pointing_button": "button3" }]
+                },
+                {
+                    "from": { "key_code": "keypad_4" },
+                    "to": [{ "mouse_key": { "x": -1536 } }]
+                },
+                {
+                    "from": { "key_code": "keypad_5" },
+                    "to": [{ "pointing_button": "button2" }]
+                },
+                {
+                    "from": { "key_code": "keypad_6" },
+                    "to": [{ "mouse_key": { "x": 1536 } }]
+                },
+                {
+                    "from": { "key_code": "keypad_7" },
+                    "to": [{ "pointing_button": "button4" }]
+                },
+                {
+                    "from": { "key_code": "keypad_8" },
+                    "to": [{ "mouse_key": { "y": -1536 } }]
+                },
+                {
+                    "from": { "key_code": "keypad_9" },
+                    "to": [{ "mouse_key": { "vertical_wheel": -64 } }]
+                },
+                {
+                    "from": { "key_code": "keypad_asterisk" },
+                    "to": [{ "apple_vendor_keyboard_key_code": "spotlight" }]
+                },
+                {
+                    "from": { "key_code": "keypad_hyphen" },
+                    "to": [{ "mouse_key": { "horizontal_wheel": 64 } }]
+                },
+                {
+                    "from": { "key_code": "keypad_num_lock" },
+                    "to": [{ "apple_vendor_top_case_key_code": "keyboard_fn" }]
+                },
+                {
+                    "from": { "key_code": "keypad_plus" },
+                    "to": [{ "mouse_key": { "horizontal_wheel": -64 } }]
+                }
+            ],
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+        }
+    ]
+}

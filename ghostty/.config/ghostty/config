@@ -1,0 +1,23 @@
+theme = GruvboxDark
+
+selection-background = 282828
+selection-foreground = c6d0f5
+
+background-opacity = 0.8
+background-blur = true
+
+font-family = Iosevka Nerd Font Mono
+font-size = 18
+
+cursor-style = underline
+cursor-style-blink = true
+mouse-hide-while-typing = true
+
+macos-titlebar-style = hidden
+macos-window-shadow = false
+macos-icon = xray
+
+window-padding-x = 5
+window-padding-y = 5
+window-width = 9999
+window-height = 9999
