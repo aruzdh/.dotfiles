@@ -1,19 +1,14 @@
 return {
-
-  -- Add gruvbox
   {
-    "ellisonleao/gruvbox.nvim",
-    opts = {
-      transparent_mode = true,
-      background = "dark",
-    },
+    "ntk148v/komau.vim",
+    config = function()
+      vim.opt.background = "light"
+    end,
   },
-
-  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "komau",
     },
   },
 }
