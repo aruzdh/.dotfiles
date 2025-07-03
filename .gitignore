@@ -11,5 +11,5 @@
 *.swp
 *.swo
 
-# Karabiner automatic backups
-/karabiner/.config/karabiner/automatic_backups/
+# Karabiner
+/karabiner
