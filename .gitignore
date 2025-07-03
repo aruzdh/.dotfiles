@@ -12,4 +12,4 @@
 *.swo
 
 # Karabiner
-/karabiner
+/karabiner/*
