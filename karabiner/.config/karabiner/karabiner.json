@@ -143,7 +143,7 @@
                     "to": [{ "mouse_key": { "horizontal_wheel": -64 } }]
                 }
             ],
-            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+            "virtual_hid_keyboard": { "keyboard_type_v2": "iso" }
         }
     ]
 }
