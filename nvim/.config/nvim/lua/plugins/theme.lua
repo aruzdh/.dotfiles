@@ -1,14 +1,12 @@
 return {
   {
-    "ntk148v/komau.vim",
-    config = function()
-      vim.opt.background = "light"
-    end,
+    "YorickPeterse/vim-paper",
+    config = function() end,
   },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "komau",
+      colorscheme = "paper",
     },
   },
 }

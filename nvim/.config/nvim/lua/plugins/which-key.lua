@@ -9,8 +9,7 @@ return {
     require("which-key").setup(opts)
 
     if vim.g.colors_name == "komau" then
-      local background = "#f5eee6"
-
+      local background = "#f1eee0"
       vim.api.nvim_set_hl(0, "FloatBorder", { fg = background, bg = background })
       vim.api.nvim_set_hl(0, "WhichKeyBorder", { fg = background, bg = background })
       vim.api.nvim_set_hl(0, "NormalFloat", { bg = background })
