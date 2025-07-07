@@ -104,7 +104,7 @@ return {
         -- { section = "startup" },
       },
     },
-    statuscolumn = { enabled = true },
+    statuscolumn = { enabled = false },
     words = { enabled = true },
   },
 }
