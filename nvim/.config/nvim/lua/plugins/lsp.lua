@@ -9,7 +9,7 @@ return {
           "--clang-tidy",
         },
         init_options = {
-          fallbackFlags = { "--std=c23" },
+          -- fallbackFlags = { "--std=c23" },
         },
         filetypes = { "c", "cpp", "objc", "objcpp" },
       },
