@@ -44,6 +44,9 @@ bindkey "^[[B" history-search-forward
 
 export FZF_DEFAULT_OPTS="--ansi --preview='bat --color=always --style=numbers,changes,header {}'"
 
+# --------------------------- SYNTAX HIGHLIGHTING BAT ---------------------------
+
+export BAT_THEME="ansi"
 
 # --------------------------- GPG KEY ---------------------------
  
