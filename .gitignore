@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Environment variables
+.env
+
+# Swap files
+*.swp
+*.swo
+
+# Karabiner
+karabiner/
+
+# Git
+*.local

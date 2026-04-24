@@ -1,0 +1,9 @@
+[init]
+	defaultBranch = main
+[core]
+	editor = nv --wait
+	autocrlf = input
+[commit]
+	gpgsign = true
+[include]
+    path = ~/.gitconfig.local

@@ -1,0 +1,22 @@
+theme = dark: Rose Pine, light: Rose Pine Dawn
+custom-shader = ./shaders/cursor_blaze.glsl
+
+background-opacity = 1
+background-blur = false
+
+font-family = MonoLisa
+font-size = 15
+font-feature = liga, ss02, ss05, ss07, ss08, ss11, ss14
+
+cursor-style = underline
+cursor-style-blink = true
+mouse-hide-while-typing = true
+
+macos-titlebar-style = hidden
+macos-window-shadow = false
+macos-icon = "retro"
+
+window-padding-x = 5
+window-padding-y = 5
+window-width = 9999
+window-height = 9999

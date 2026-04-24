@@ -1,0 +1,38 @@
+# Ghostty theme configuration - Achroma Light
+background = f4f4f4
+foreground = 1e1e1e
+cursor-color = 1e1e1e
+selection-background = cccccc
+selection-foreground = 1e1e1e
+
+# Black colors (mapped to light background/subtle grays)
+palette = 0=#f4f4f4
+palette = 8=#cccccc
+
+# Red colors
+palette = 1=#656565
+palette = 9=#656565
+
+# Green colors
+palette = 2=#505050
+palette = 10=#3c3c3c
+
+# Yellow colors
+palette = 3=#656565
+palette = 11=#656565
+
+# Blue colors
+palette = 4=#282828
+palette = 12=#282828
+
+# Magenta colors
+palette = 5=#0d0d0d
+palette = 13=#0d0d0d
+
+# Cyan colors
+palette = 6=#3c3c3c
+palette = 14=#3c3c3c
+
+# White colors (mapped to dark foreground)
+palette = 7=#1e1e1e
+palette = 15=#1e1e1e
