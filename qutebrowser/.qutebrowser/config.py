@@ -5,6 +5,7 @@ c.tabs.show = "never"
 c.statusbar.show = "never"
 c.scrolling.bar = "never"
 c.window.title_format = "Typst Preview: {perc}{current_title}"
+c.window.hide_decoration = True
 
 # Behavior
 c.auto_save.session = True
