@@ -34,3 +34,5 @@ fi
 update_fzf_theme
 
 eval "$(starship init zsh)"
+
+source /opt/homebrew/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
