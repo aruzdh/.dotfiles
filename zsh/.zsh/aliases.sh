@@ -6,13 +6,13 @@ alias qw="qwen"
 
 # FZF
 alias f="fzf"
-alias fn="scan_n_edit"
+alias se="scan_n_edit"
 
 # TYPST
 alias tc="typst compile"
 
 # NVIM
-alias nv="nvim"
+alias e="nvim"
 alias cdnv='cd ~/.config/nvim'
 
 # GIT
@@ -30,7 +30,7 @@ alias gco='git checkout'
 alias gvg='git log --oneline --graph --all'
 
 # ZSHRC
-alias nvsh='nv ~/.zshrc'
+alias esh='e ~/.zshrc'
 alias sosh='source ~/.zshrc'
 alias cl='clear'
 alias md='mkdir'
@@ -48,13 +48,17 @@ alias lg='lazygit'
 alias cddv='cd ~/Developer'
 
 # GHOSTTY
-alias nvgh='nv ~/.config/ghostty/config'
+alias egh='e ~/.config/ghostty/config'
 
 # TMUX
 alias tx='tmux'
+alias tl='tmux ls'
+alias ta='tmux attach -t'
+alias tn='tmux new -s'
+alias tk='tmux kill-session -t'
+alias ts='tmux run-shell ~/.tmux/plugins/tmux-resurrect/scripts/save.sh'
+alias tr='tmux run-shell ~/.tmux/plugins/tmux-resurrect/scripts/restore.sh'
 alias ex='exit'
-alias cgth='~/.config/alacritty/scripts/change-theme.sh'
-alias txks='tmux kill-server'
 
 # DOTFILES
 alias cddf='cd ~/.dotfiles'
@@ -83,7 +87,7 @@ alias cdic='cd ~/Library/Mobile Documents/com~apple~CloudDocs'
 alias cdnts='cd Developer/notes'
 
 # COMP. SCI. NOTES
-alias cdcsn='cd Developer/notes/compsci-notes'
+alias cdcsn='cd Developer/notes/compsci'
 
 # PYTHON3
 alias py='python3'
@@ -99,7 +103,7 @@ alias opc='open .'
 alias opp='open -a Preview'
 
 # LEETCODE NVIM
-alias nvl='nv leetcode.nvim'
+alias nl='e leetcode.nvim'
 
 # OPAM / ROCQ
 
@@ -108,3 +112,8 @@ alias rocq-lts="opam switch rocq-lts"
 
 # Latest switch (OCaml 5.4.0)
 alias rocq-latest="opam switch rocq-latest"
+
+# GENERAL
+alias please='sudo $(fc -ln -1)'
+
+alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
