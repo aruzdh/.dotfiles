@@ -1,14 +1,14 @@
 # --------------------------- SYNTAX HIGHLIGHTING FZF ---------------------------
 
-export FZF_BAMBOO_DARK="--color=bg+:#2f312c,bg:#252623,spinner:#e75a7c,hl:#e75a7c \
-  --color=fg:#f1e9d2,header:#e75a7c,info:#96c7ef,pointer:#8fb573 \
-  --color=marker:#8fb573,fg+:#8fb573,prompt:#8fb573,hl+:#e75a7c \
-  --color=selected-bg:#383b35"
+export FZF_ROSE_PINE_DARK="--color=bg+:#26233a,bg:#191724,spinner:#f6c177,hl:#ebbcba \
+  --color=fg:#e0def4,header:#9ccfd8,info:#908caa,pointer:#eb6f92 \
+  --color=marker:#c4a7e7,fg+:#e0def4,prompt:#31748f,hl+:#ebbcba \
+  --color=selected-bg:#1f1d2e"
 
-export FZF_BAMBOO_LIGHT="--color=bg+:#eaead0,bg:#fafae0,spinner:#c72a3c,hl:#c72a3c \
-  --color=fg:#3a4238,header:#c72a3c,info:#177fff,pointer:#27850b \
-  --color=marker:#27850b,fg+:#27850b,prompt:#27850b,hl+:#c72a3c \
-  --color=selected-bg:#e4e4cc"
+export FZF_ROSE_PINE_LIGHT="--color=bg+:#f2e9de,bg:#faf4ed,spinner:#ea9d34,hl:#d7827e \
+  --color=fg:#575279,header:#56949f,info:#9893a5,pointer:#b4637a \
+  --color=marker:#907aa9,fg+:#575279,prompt:#286983,hl+:#d7827e \
+  --color=selected-bg:#fffaf3"
 
 # --------------------------- SYNTAX HIGHLIGHTING BAT ---------------------------
 
