@@ -4,6 +4,8 @@ My personal, automated macOS development environment. This repository uses
 **GNU Stow** to manage configurations and **Homebrew Bundle** to automate
 software installation.
 
+![Example](./dotfiles.png)
+
 ---
 
 ## One-Command Installation
