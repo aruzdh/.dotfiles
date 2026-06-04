@@ -1,9 +1,3 @@
-# GEMINI
-alias gm="gemini"
-
-# QWEN
-alias qw="qwen"
-
 # FZF
 alias f="fzf"
 alias se="scan_n_edit"

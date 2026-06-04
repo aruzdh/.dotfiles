@@ -54,3 +54,6 @@ export PATH="/opt/homebrew/opt/python@3.14/bin:$PATH"
 
 # --------------------------- PIPX ---------------------------
 export PATH="$PATH:/Users/aru/.local/bin"
+
+# ------------------------ Antigravity ------------------------
+export PATH="/Users/aru/.local/bin:$PATH"

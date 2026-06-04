@@ -54,4 +54,11 @@ if ! command -v rustc &>/dev/null; then
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y --no-modify-path
 fi
 
+# Install Antigravity (if not already installed)
+if ! command -v agy &>/dev/null; then
+  echo "Installing Antigravity..."
+  curl -fsSL https://antigravity.google/cli/install.sh | bash -s -- -y --no-modify-path
+fi
+
+
 echo -e "${BLUE}Installation Complete 🦦! Please restart your terminal.${NC}"
