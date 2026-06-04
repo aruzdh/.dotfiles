@@ -1,0 +1,39 @@
+# Brighter Lumon Terminal (Severance)
+cursor-color=#BFFFFF
+cursor-text=#050A0F
+foreground=#7EE6F2
+background=#0A1522
+selection-foreground=#FFFFFF
+selection-background=#1A3F54
+
+# Black
+palette = 0=#050A0F
+palette = 8=#1E455A
+
+# Red (DR - Dread) - Brighter Pink
+palette = 1=#FF99AA
+palette = 9=#FFC0D0
+
+# Green (WO - Woe) - Brighter Neon Green
+palette = 2=#88FF99
+palette = 10=#AAFFCC
+
+# Yellow (FC - Frolic) - Brighter Gold
+palette = 3=#F0CD66
+palette = 11=#FFE088
+
+# Blue (MA - Malice) - Brighter Sky Blue
+palette = 4=#88EEFF
+palette = 12=#A0F5FF
+
+# Magenta (Pink alt)
+palette = 5=#FF99AA
+palette = 13=#FFC0D0
+
+# Cyan (Primary Foreground) - High-Vibrancy Cyan
+palette = 6=#7EE6F2
+palette = 14=#BFFFFF
+
+# White (Phosphor Glow)
+palette = 7=#2A5A70
+palette = 15=#D0FFFF
