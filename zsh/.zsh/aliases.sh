@@ -71,8 +71,9 @@ alias cd='z'
 # BAT
 alias cat='bat'
 
-# HOMEBREW UPDATE && UPGRADE
+# HOMEBREW
 alias hbuu='brew update && brew upgrade && brew cleanup'
+alias hbbd='brew bundle dump --global --force --describe'
 
 # iCLOUD
 alias cdic='cd ~/Library/Mobile Documents/com~apple~CloudDocs'

@@ -4,10 +4,14 @@ brew "ast-grep"
 brew "bat"
 # Cross-platform make
 brew "cmake"
+# Container runtimes on MacOS (and Linux) with minimal setup
+brew "colima"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Package acting as bridge between Node projects and their package managers
-brew "corepack"
+brew "corepack", link: false
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
 # Modern, maintained replacement for ls
 brew "eza"
 # Simple, fast and user-friendly alternative to find
@@ -28,6 +32,8 @@ brew "luarocks"
 brew "python@3.14"
 # Fast and user friendly build system
 brew "meson"
+# Deep clean and optimize your Mac
+brew "mole"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # OCaml package manager
