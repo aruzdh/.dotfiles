@@ -43,6 +43,7 @@ alias cddv='cd ~/Developer'
 
 # GHOSTTY
 alias egh='e ~/.config/ghostty/config'
+alias g='ghostty --config-file=~/.dotfiles/ghostty/.config/ghostty/config --config-file=~/.dotfiles/ghostty/.config/ghostty/${HOST%%.*} > /dev/null 2>&1 &|'
 
 # TMUX
 alias tx='tmux'
