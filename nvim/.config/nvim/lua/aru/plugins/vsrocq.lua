@@ -6,7 +6,7 @@ return {
     render = { split = "vertical" },
     vsrocq = {
       proof = {
-        mode = "Continuous",
+        mode = "Manual",
       },
       completion = {
         enable = true,
