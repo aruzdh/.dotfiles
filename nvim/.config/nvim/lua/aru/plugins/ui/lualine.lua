@@ -2,71 +2,88 @@ return {
   "nvim-lualine/lualine.nvim",
   dependencies = { "nvim-tree/nvim-web-devicons" },
   config = function()
-    local colors = {
-      bg = "#050A0F",
-      fg = "#7EE6F2",
-      glow = "#D0FFFF",
-      dim = "#2A5A70",
-      bright = "#BFFFFF",
-      subtle = "#1E455A",
-      visual = "#1A3F54",
-      pink = "#FF99AA",
-      green = "#88FF99",
-      gold = "#F0CD66",
-      blue = "#88EEFF",
+    local colors = require("rose-pine.palette")
+
+    local c = {
+      bg = "NONE",
+      fg = colors.subtle,
+      muted = colors.muted,
+      active = colors.pine,
+      love = colors.love,
+      rose = colors.rose,
+      gold = colors.gold,
+      foam = colors.foam,
     }
 
     local function get_lsp_name()
       local clients = vim.lsp.get_clients({ bufnr = 0 })
       for _, client in ipairs(clients) do
         if client.name ~= "ruff" then
-          return client.name:upper()
+          return client.name
         end
       end
-      return "OFFLINE"
+      return "No Active Lsp"
     end
+
+    local conditions = {
+      buffer_not_empty = function()
+        return vim.fn.empty(vim.fn.expand("%:t")) ~= 1
+      end,
+      hide_in_width = function()
+        return vim.fn.winwidth(0) > 80
+      end,
+    }
 
     require("lualine").setup({
       options = {
         component_separators = "",
         section_separators = "",
-        theme = {
-          normal = { c = { fg = colors.fg, bg = "NONE" } },
-          inactive = { c = { fg = colors.dim, bg = "NONE" } },
-        },
+        theme = "rose-pine",
       },
       sections = {
         lualine_a = {},
         lualine_b = {},
         lualine_y = {},
         lualine_z = {},
+
         lualine_c = {
           {
             function()
               return "▓▒░"
             end,
-            color = { fg = colors.subtle },
+            color = { fg = c.active },
             padding = { left = 0, right = 1 },
           },
           {
             function()
-              return "OP: " .. vim.fn.mode():upper()
+              return vim.fn.mode()
             end,
-            color = { fg = colors.bright, gui = "bold" },
+            icon = "",
+            color = { fg = c.active, gui = "bold" },
+            padding = { right = 1 },
+          },
+          {
+            "filesize",
+            cond = conditions.buffer_not_empty,
+            color = { fg = c.muted },
           },
           {
             "filename",
             file_status = true,
             path = 4,
-            color = { fg = colors.glow, gui = "bold" },
+            cond = conditions.buffer_not_empty,
+            color = { fg = colors.love, gui = "bold" },
           },
+          { "location", color = { fg = c.muted } },
+          { "progress", color = { fg = c.muted } },
           {
             "diagnostics",
-            symbols = { error = "!", warn = "?", info = "i" },
+            sources = { "nvim_diagnostic" },
+            symbols = { error = " ", warn = " ", info = " " },
             diagnostics_color = {
-              error = { fg = colors.pink },
-              warn = { fg = colors.gold },
-              info = { fg = colors.blue },
+              error = { fg = c.love },
+              warn = { fg = c.gold },
+              info = { fg = c.foam },
             },
           },
           {
@@ -76,29 +93,49 @@ return {
           },
           {
             get_lsp_name,
-            icon = "SYSTEM:",
-            color = { fg = colors.green },
+            icon = " LSP:",
+            color = { fg = colors.yellow },
           },
         },
+
         lualine_x = {
-          { "branch", icon = "", color = { fg = colors.blue } },
+          {
+            "filetype",
+            colored = false,
+            icon_only = false,
+            color = { fg = c.muted },
+          },
+          {
+            "branch",
+            icon = "",
+            color = { fg = colors.purple },
+          },
           {
             "diff",
-            symbols = { added = "+", modified = "~", removed = "-" },
+            symbols = { added = " ", modified = "󰝤 ", removed = " " },
             diff_color = {
-              added = { fg = colors.green },
-              modified = { fg = colors.gold },
-              removed = { fg = colors.pink },
+              added = { fg = c.rose },
+              modified = { fg = c.gold },
+              removed = { fg = c.love },
             },
+            cond = conditions.hide_in_width,
           },
           {
             function()
               return "░▒▓"
             end,
-            color = { fg = colors.subtle },
+            color = { fg = c.active },
             padding = { left = 1 },
           },
         },
+      },
+      inactive_sections = {
+        lualine_a = {},
+        lualine_b = {},
+        lualine_y = {},
+        lualine_z = {},
+        lualine_c = {},
+        lualine_x = {},
       },
     })
   end,
