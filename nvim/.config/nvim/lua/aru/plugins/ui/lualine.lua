@@ -2,17 +2,28 @@ return {
   "nvim-lualine/lualine.nvim",
   dependencies = { "nvim-tree/nvim-web-devicons" },
   config = function()
-    local colors = require("rose-pine.palette")
+    local colors = require("onedarkpro.helpers").get_colors()
 
     local c = {
       bg = "NONE",
-      fg = colors.subtle,
-      muted = colors.muted,
-      active = colors.pine,
-      love = colors.love,
-      rose = colors.rose,
-      gold = colors.gold,
-      foam = colors.foam,
+      fg = colors.fg,
+      muted = colors.gray,
+      active = colors.blue,
+      red = colors.red,
+      green = colors.green,
+      yellow = colors.yellow,
+      cyan = colors.cyan,
+    }
+
+    local transparent_theme = {
+      normal = {
+        c = { bg = "NONE", fg = colors.fg },
+        x = { bg = "NONE", fg = colors.fg },
+      },
+      inactive = {
+        c = { bg = "NONE", fg = colors.gray },
+        x = { bg = "NONE", fg = colors.gray },
+      },
     }
 
     local function get_lsp_name()
@@ -38,7 +49,7 @@ return {
       options = {
         component_separators = "",
         section_separators = "",
-        theme = "rose-pine",
+        theme = transparent_theme,
       },
       sections = {
         lualine_a = {},
@@ -72,7 +83,7 @@ return {
             file_status = true,
             path = 4,
             cond = conditions.buffer_not_empty,
-            color = { fg = colors.love, gui = "bold" },
+            color = { fg = c.red, gui = "bold" },
           },
           { "location", color = { fg = c.muted } },
           { "progress", color = { fg = c.muted } },
@@ -81,9 +92,9 @@ return {
             sources = { "nvim_diagnostic" },
             symbols = { error = " ", warn = " ", info = " " },
             diagnostics_color = {
-              error = { fg = c.love },
-              warn = { fg = c.gold },
-              info = { fg = c.foam },
+              error = { fg = c.red },
+              warn = { fg = c.yellow },
+              info = { fg = c.cyan },
             },
           },
           {
@@ -112,11 +123,11 @@ return {
           },
           {
             "diff",
-            symbols = { added = " ", modified = "󰝤 ", removed = " " },
+            symbols = { added = "+", modified = "~", removed = "-" },
             diff_color = {
-              added = { fg = c.rose },
-              modified = { fg = c.gold },
-              removed = { fg = c.love },
+              added = { fg = c.green },
+              modified = { fg = c.yellow },
+              removed = { fg = c.red },
             },
             cond = conditions.hide_in_width,
           },

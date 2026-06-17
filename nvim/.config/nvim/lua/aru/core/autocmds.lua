@@ -2,7 +2,7 @@ local function apply_custom_highlights()
   local hl = vim.api.nvim_set_hl
   local is_light = vim.o.background == "light"
   local cc_bg = is_light and "#286983" or "#ea9d34"
-  local rocq_checked = is_light and "#CCE6EB" or "#266983"
+  local rocq_checked = is_light and "#DFEE9B" or "#4D5433"
   local comment_color = is_light and "#666666" or "#eeeeee"
 
   local bold_style = { bold = true }
