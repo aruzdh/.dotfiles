@@ -66,6 +66,18 @@ scoped("FileType", {
   end,
 })
 
+scoped("User", {
+  pattern = "TSUpdate",
+  callback = function()
+    require("nvim-treesitter.parsers").rocq = {
+      install_info = {
+        path = "~/Developer/tree-sitter-rocq",
+        queries = "~/Developer/tree-sitter-rocq/queries",
+      },
+    }
+  end,
+})
+
 -- Markdown
 
 scoped("FileType", {

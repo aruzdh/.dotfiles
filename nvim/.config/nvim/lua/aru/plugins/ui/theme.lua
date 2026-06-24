@@ -4,13 +4,27 @@ return {
     priority = 1000,
     opts = {
       highlights = {
-        coqVernacCmd = { fg = "${orange}", italic = true, bold = true }, -- Theorem, Lemma, etc.
-        coqProofDelim = { fg = "${purple}", bold = true }, -- Proof, Qed
-        coqThmName = { fg = "${blue}" }, -- The name of your theorem
-        coqTactic = { fg = "${cyan}", bold = true }, -- intros, apply, symmetry
-        coqProofBody = { fg = "${red}" }, -- Proof body
-        coqThmTerm = { fg = "${blue}" }, -- Statment variables
-        coqKwdParen = { fg = "${blue}" }, -- Statment quantified variables
+        ["@keyword.vernacular"] = { fg = "${orange}", italic = true, bold = true },
+        ["@keyword.proof"] = { fg = "${purple}", italic = true, bold = true },
+        ["@keyword.control"] = { fg = "${purple}", italic = true, bold = true },
+        ["@keyword.directive"] = { fg = "${purple}", italic = true, bold = true },
+
+        ["@function.theorem"] = { fg = "${red}", bold = true },
+        ["@function.definition"] = { fg = "${blue}", bold = true },
+        ["@function.call"] = { fg = "${blue}" },
+
+        ["@type"] = { fg = "${yellow}" },
+        ["@constructor"] = { fg = "${green}" },
+
+        ["@tactic"] = { fg = "${cyan}", bold = true },
+        ["@variable.rocq"] = { fg = "${green}" },
+        ["@variable.parameter"] = { fg = "${red}", italic = true },
+        ["@variable.builtin"] = { fg = "${red}" },
+
+        ["@operator.rocq"] = { fg = "${red}" },
+        ["@punctuation.delimiter"] = { fg = "${blue}" },
+        ["@punctuation.bracket"] = { fg = "${blue}" },
+        ["@comment"] = { fg = "${blue}", italic = true },
       },
     },
   },

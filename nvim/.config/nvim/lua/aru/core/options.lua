@@ -17,3 +17,4 @@ vim.opt.wildignore:append({ "*/node_modules/*" })
 
 vim.g.lazyvim_picker = "fzf"
 vim.opt.spelllang = "en_us,es"
+vim.treesitter.language.register("rocq", "coq")
