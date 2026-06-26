@@ -1,0 +1,1 @@
+/Users/aru/Developer/rocq-highlighting/coq-goals.lua
