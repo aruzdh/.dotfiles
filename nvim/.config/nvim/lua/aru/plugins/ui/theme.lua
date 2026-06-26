@@ -11,10 +11,10 @@ return {
 
         ["@function.theorem"] = { fg = "${red}", bold = true },
         ["@function.definition"] = { fg = "${blue}", bold = true },
-        ["@function.call"] = { fg = "${blue}" },
+        ["@function.call"] = { fg = "${blue}", bold = true },
 
         ["@type"] = { fg = "${yellow}" },
-        ["@constructor"] = { fg = "${green}" },
+        ["@constructor"] = { fg = "${green}", bold = true },
 
         ["@tactic"] = { fg = "${cyan}", bold = true },
         ["@variable.rocq"] = { fg = "${green}" },
