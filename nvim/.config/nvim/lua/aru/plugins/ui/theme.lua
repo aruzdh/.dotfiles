@@ -26,6 +26,7 @@ return {
         ["@keyword.control.abort"] = { fg = "${red}", bold = true },
 
         ["@keyword.tactic"] = { fg = "${cyan}", bold = true },
+        ["@keyword.tactical"] = { fg = "${purple}", bold = true },
         ["@keyword.directive.ltac"] = { fg = "${orange}", bold = true },
         ["@proof.dash"] = { fg = "${green}", bold = true },
         ["@proof.plus"] = { fg = "${orange}", bold = true },
