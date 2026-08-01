@@ -1,7 +1,7 @@
 [init]
 	defaultBranch = main
 [core]
-	editor = nv --wait
+	editor = nvim --wait
 	autocrlf = input
 [commit]
 	gpgsign = true
