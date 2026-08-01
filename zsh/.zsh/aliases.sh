@@ -19,9 +19,10 @@ alias gpl='git pull'
 alias gfo='git fetch origin'
 alias ghr='git reset --hard HEAD'
 alias gfc='git fetch origin && git reset --hard origin/$(git rev-parse --abbrev-ref HEAD)'
-alias gnv='ga nvim && gcm "chore: Update Neovim plugins"'
+alias gnv='ga nvim && gcm "chore: update Neovim plugins"'
 alias gco='git checkout'
 alias gvg='git log --oneline --graph --all'
+alias gmg='git merge'
 
 # ZSHRC
 alias esh='e ~/.zshrc'
