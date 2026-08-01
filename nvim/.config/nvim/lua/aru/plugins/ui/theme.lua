@@ -31,7 +31,7 @@ return {
         ["@proof.dash"] = { fg = "${green}", bold = true },
         ["@proof.plus"] = { fg = "${orange}", bold = true },
         ["@proof.star"] = { fg = "${red}", bold = true },
-        ["@proof.block"] = { fg = "${black}", bold = true },
+        ["@proof.block"] = { fg = "${orange}", bold = true },
 
         ["@type.rocq"] = { fg = "${yellow}", bold = true },
         ["@type.builtin"] = { fg = "${yellow}", bold = true },
