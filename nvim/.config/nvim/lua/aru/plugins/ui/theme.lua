@@ -18,6 +18,7 @@ return {
         ["@keyword.modifier"] = { fg = "${purple}", italic = true, bold = true },
         ["@keyword.directive"] = { fg = "${purple}", italic = true, bold = true },
         ["@keyword.directive.fail"] = { fg = "${red}", bold = true },
+        ["@keyword.directive.language"] = { fg = "${orange}" },
         ["@keyword.declaration"] = { fg = "${orange}", italic = true, bold = true },
         ["@keyword.declaration.inductive"] = { fg = "#E56BB1", italic = true, bold = true },
         ["@keyword.module"] = { fg = "${purple}", bold = true },
