@@ -5,6 +5,7 @@ return {
     opts = {
       highlights = {
         ["@variable.rocq"] = { fg = "${green}" },
+        ["@variable.imp"] = { fg = "${purple}" },
         ["@variable.qualid"] = { fg = "${green}", bold = true },
         ["@variable.metavariable"] = { fg = "${orange}", italic = true, bold = true },
         ["@variable.quantifier"] = { fg = "${purple}" },
@@ -25,6 +26,7 @@ return {
         ["@keyword.notation"] = { fg = "${orange}", bold = true },
         ["@keyword.control"] = { fg = "${purple}", italic = true, bold = true },
         ["@keyword.control.abort"] = { fg = "${red}", bold = true },
+        ["@keyword.control.imp"] = { fg = "#E56BB1", italic = true, bold = true },
 
         ["@keyword.tactic"] = { fg = "${cyan}", bold = true },
         ["@keyword.tactical"] = { fg = "${purple}", bold = true },
