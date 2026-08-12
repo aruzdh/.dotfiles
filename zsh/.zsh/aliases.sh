@@ -45,6 +45,13 @@ alias tsto='tree-sitter test --overview-only'
 alias tstu='tree-sitter test -u --show_fields'
 alias tsp='tree-sitter parse'
 
+# PNPM - Astro
+alias ppi='pnpm install'
+alias ppu='pnpm self-update'
+alias ppad='pnpm astro dev'
+alias ppac='pnpm astro check'
+alias ppaa='pnpm astro add'
+
 # LAZYGIT
 alias lg='lazygit'
 
