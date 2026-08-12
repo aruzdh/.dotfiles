@@ -36,6 +36,15 @@ alias cpp='cp -rf'
 # SIOYEK
 alias syk='sioyek'
 
+# TREE-SITTER
+alias ts='tree-sitter'
+alias tsg='tree-sitter generate'
+alias tst='tree-sitter test'
+alias tsti='tree-sitter test -i'
+alias tsto='tree-sitter test --overview-only'
+alias tstu='tree-sitter test -u --show_fields'
+alias tsp='tree-sitter parse'
+
 # LAZYGIT
 alias lg='lazygit'
 
