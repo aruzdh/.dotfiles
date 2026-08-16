@@ -1,10 +1,10 @@
 update_fzf_theme() {
   if [[ "$(defaults read -g AppleInterfaceStyle 2>/dev/null)" == "Dark" ]]; then
-    export FZF_DEFAULT_OPTS="$FZF_ROSE_PINE_DARK"
+    export FZF_DEFAULT_OPTS="$FZF_DARK"
     export BAT_THEME="gruvbox-dark"
   else
-    export FZF_DEFAULT_OPTS="$FZF_ROSE_PINE_LIGHT"
-    export BAT_THEME="GitHub"
+    export FZF_DEFAULT_OPTS="$FZF_LIGHT"
+    export BAT_THEME="gruvbox-light"
   fi
 
   export FZF_DEFAULT_OPTS="$FZF_DEFAULT_OPTS \

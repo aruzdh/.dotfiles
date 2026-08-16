@@ -1,18 +1,14 @@
 # --------------------------- SYNTAX HIGHLIGHTING FZF ---------------------------
 
-export FZF_ROSE_PINE_DARK="--color=bg+:#26233a,bg:#191724,spinner:#f6c177,hl:#ebbcba \
-  --color=fg:#e0def4,header:#9ccfd8,info:#908caa,pointer:#eb6f92 \
-  --color=marker:#c4a7e7,fg+:#e0def4,prompt:#31748f,hl+:#ebbcba \
-  --color=selected-bg:#1f1d2e"
+export FZF_DARK="--color=bg+:#585B89,bg:#222435,spinner:#EAA041,hl:#e2be7d \
+  --color=fg:#B4B7CF,header:#46A3AF,info:#7679A7,pointer:#E16765 \
+  --color=marker:#c678dd,fg+:#B4B7CF,prompt:#25ABE4,hl+:#e2be7d \
+  --color=selected-bg:#585B89"
 
-export FZF_ROSE_PINE_LIGHT="--color=bg+:#f2e9de,bg:#faf4ed,spinner:#ea9d34,hl:#d7827e \
-  --color=fg:#575279,header:#56949f,info:#9893a5,pointer:#b4637a \
-  --color=marker:#907aa9,fg+:#575279,prompt:#286983,hl+:#d7827e \
-  --color=selected-bg:#fffaf3"
-
-# --------------------------- SYNTAX HIGHLIGHTING BAT ---------------------------
-
-export BAT_THEME="ansi"
+export FZF_LIGHT="--color=bg+:#bebebe,bg:#fafafa,spinner:#ee9025,hl:#e2be7d \
+  --color=fg:#6a6a6a,header:#56b6c2,info:#9b9fa6,pointer:#e05661 \
+  --color=marker:#9a77cf,fg+:#6a6a6a,prompt:#118dc3,hl+:#e2be7d \
+  --color=selected-bg:#bebebe"
 
 # --------------------------- GPG KEY ---------------------------
 
