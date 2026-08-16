@@ -42,7 +42,7 @@ alias tsg='tree-sitter generate'
 alias tst='tree-sitter test'
 alias tsti='tree-sitter test -i'
 alias tsto='tree-sitter test --overview-only'
-alias tstu='tree-sitter test -u --show_fields'
+alias tstu='tree-sitter test -u --show-fields'
 alias tsp='tree-sitter parse'
 
 # PNPM - Astro
@@ -51,6 +51,8 @@ alias ppu='pnpm self-update'
 alias ppad='pnpm astro dev'
 alias ppac='pnpm astro check'
 alias ppaa='pnpm astro add'
+alias ppab='pnpm astro build'
+alias ppap='pnpm astro preview'
 
 # LAZYGIT
 alias lg='lazygit'
@@ -64,12 +66,12 @@ alias g='ghostty --config-file=~/.dotfiles/ghostty/.config/ghostty/config --conf
 
 # TMUX
 alias tx='tmux'
-alias tl='tmux ls'
-alias ta='tmux attach -t'
-alias tn='tmux new -s'
-alias tk='tmux kill-session -t'
-alias ts='tmux run-shell ~/.tmux/plugins/tmux-resurrect/scripts/save.sh'
-alias tr='tmux run-shell ~/.tmux/plugins/tmux-resurrect/scripts/restore.sh'
+alias txl='tmux ls'
+alias txa='tmux attach -t'
+alias txn='tmux new -s'
+alias txk='tmux kill-session -t'
+alias txs='tmux run-shell ~/.tmux/plugins/tmux-resurrect/scripts/save.sh'
+alias txr='tmux run-shell ~/.tmux/plugins/tmux-resurrect/scripts/restore.sh'
 alias ex='exit'
 
 # DOTFILES
