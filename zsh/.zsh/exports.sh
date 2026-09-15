@@ -35,6 +35,10 @@ export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 
 export PATH="$PATH:$HOME/.lmstudio/bin"
 
+# --------------------------- LaTeX ---------------------------
+
+export PATH="/Library/TeX/texbin:$PATH"
+
 # --------------------------- CARGO ---------------------------
 
 export PATH="$HOME/.cargo/bin:$PATH"
