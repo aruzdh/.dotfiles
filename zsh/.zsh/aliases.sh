@@ -130,6 +130,7 @@ alias rocq-latest="opam switch rocq-latest"
 
 # GENERAL
 alias please='sudo $(fc -ln -1)'
+
 # Clean DNS chache
 alias cdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
 
