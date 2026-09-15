@@ -93,7 +93,7 @@ alias cat='bat'
 
 # HOMEBREW
 alias hbuu='brew update && brew upgrade && brew cleanup'
-alias hbbd='brew bundle dump --global --force --describe'
+alias hbbd='brew bundle dump --global --force'
 
 # iCLOUD
 alias cdic='cd ~/Library/Mobile Documents/com~apple~CloudDocs'
