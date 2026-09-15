@@ -11,7 +11,7 @@ brew "node"
 # Package acting as bridge between Node projects and their package managers
 brew "corepack", link: false
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Modern, maintained replacement for ls
 brew "eza"
 # Simple, fast and user-friendly alternative to find
@@ -34,14 +34,22 @@ brew "python@3.14"
 brew "meson"
 # Deep clean and optimize your Mac
 brew "mole"
+# Incremental parsing library
+brew "tree-sitter"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # OCaml package manager
 brew "opam"
+# High performance message passing library
+brew "open-mpi"
+# Development kit for the Java programming language
+brew "openjdk"
 # Execute binaries from Python packages in isolated environments
 brew "pipx"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
+# Fast, disk space efficient package manager
+brew "pnpm"
 # Theme for zsh
 brew "powerlevel10k"
 # Search tool like grep and The Silver Searcher
@@ -52,6 +60,8 @@ brew "starship"
 brew "stow"
 # Terminal multiplexer
 brew "tmux"
+# Parser generator tool
+brew "tree-sitter-cli"
 # Markup-based typesetting system
 brew "typst"
 # Internet file retriever
@@ -66,5 +76,9 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Better and friendly vi(vim) mode plugin for ZSH
 brew "zsh-vi-mode"
+# Full TeX Live distribution with GUI applications
+cask "mactex"
 # Keyboard-driven, vim-like browser based on PyQt5
 cask "qutebrowser"
+# PDF reader and note-taking application
+cask "skim"
