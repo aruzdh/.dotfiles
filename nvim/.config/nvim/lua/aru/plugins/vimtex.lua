@@ -3,9 +3,7 @@ return {
     "lervag/vimtex",
     lazy = false,
     init = function()
-      vim.g.vimtex_view_method = "sioyek"
-      vim.g.vimtex_view_sioyek_use_terminal = 1
-      vim.g.vimtex_view_sioyek_options = "--reuse-window --nofocus"
+      vim.g.vimtex_view_method = "skim"
       vim.g.vimtex_callback_progpath = "/opt/homebrew/bin/nvim"
 
       vim.g.vimtex_compiler_latexmk = {
@@ -17,7 +15,6 @@ return {
           "-synctex=1",
           "-shell-escape",
           "-silent",
-          "-outdir=build",
         },
       }
 
