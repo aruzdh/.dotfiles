@@ -9,7 +9,7 @@ brew "colima"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Package acting as bridge between Node projects and their package managers
-brew "corepack", link: false
+brew "corepack"
 # Pack, ship and run any application as a lightweight container
 brew "docker"
 # Modern, maintained replacement for ls
@@ -48,8 +48,6 @@ brew "openjdk"
 brew "pipx"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
-# Fast, disk space efficient package manager
-brew "pnpm"
 # Theme for zsh
 brew "powerlevel10k"
 # Search tool like grep and The Silver Searcher
