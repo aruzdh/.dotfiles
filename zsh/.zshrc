@@ -36,3 +36,7 @@ update_fzf_theme
 type starship_zle-keymap-select >/dev/null || { eval "$(starship init zsh)"; }
 
 source /opt/homebrew/opt/zsh-vi-mode/share/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
