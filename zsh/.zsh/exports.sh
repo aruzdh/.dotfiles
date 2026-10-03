@@ -57,3 +57,6 @@ export PATH="$PATH:/Users/aru/.local/bin"
 
 # ------------------------ Antigravity ------------------------
 export PATH="/Users/aru/.local/bin:$PATH"
+
+# --------------------- ATUIN TMUX POPUP ---------------------
+export ATUIN_TMUX_POPUP=true
