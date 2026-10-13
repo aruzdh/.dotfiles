@@ -3,7 +3,7 @@ theme = dark:onedarkpro-vaporwave, light: onedarkpro-onelight
 background-opacity = 1
 background-blur = false
 
-font-family = IoskeleyMono Nerd Font
+font-family = IoskeleyMonoTerm Nerd Font Mono
 font-size = 15
 font-feature = liga, ss02, ss05, ss07, ss08, ss11, ss14
 
