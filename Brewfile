@@ -18,8 +18,6 @@ brew "eza"
 brew "fd"
 # Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
-# User-friendly command-line shell for UNIX-like operating systems
-brew "fish"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GNU Privacy Guard (OpenPGP)
@@ -29,7 +27,7 @@ brew "lazygit"
 # Package manager for the Lua programming language
 brew "luarocks"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
+brew "python@3.15"
 # Fast and user friendly build system
 brew "meson"
 # Deep clean and optimize your Mac
@@ -48,8 +46,6 @@ brew "openjdk"
 brew "pipx"
 # Package compiler and linker metadata toolkit
 brew "pkgconf"
-# Theme for zsh
-brew "powerlevel10k"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Cross-shell prompt for astronauts
@@ -74,9 +70,6 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # Better and friendly vi(vim) mode plugin for ZSH
 brew "zsh-vi-mode"
-# Full TeX Live distribution with GUI applications
-cask "mactex"
-# Keyboard-driven, vim-like browser based on PyQt5
-cask "qutebrowser"
 # PDF reader and note-taking application
 cask "skim"
+
