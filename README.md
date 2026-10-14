@@ -46,9 +46,8 @@ to automate software installation.
     Some packages require a post-installation step. Check the output at the end
     of the whole process.
 
-    > [!WARNING]
-    > This Bundle installs `mactex`, so the installation process could be (too)
-    > long. It downloads around 7–8 GB.
+    This Bundle installs `mactex`, so the installation process could be (too) long.
+    It downloads around 7–8 GB.
 
 1. Inside `~/.dotfiles`, `stow` the desired configuration. For example, for nvim
 
