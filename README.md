@@ -68,8 +68,6 @@ Configurations are organized into "packages" that `stow` can map:
 - `starship/`: Shell prompt configurations.
 - `qutebrowser/`: Keyboard-driven web browser setup. (deprecated by brew)
 
----
-
 ## SSH and GPG keys
 
 1. Create and set up your
