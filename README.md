@@ -46,7 +46,7 @@ to automate software installation.
     Some packages require a post-installation step. Check the output at the end
     of the whole process.
 
-    > [!warning]
+    > [!WARNING]
     > This Bundle installs `mactex`, so the installation process could be (too)
     > long. It downloads around 7–8 GB.
 
