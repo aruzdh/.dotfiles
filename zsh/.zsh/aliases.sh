@@ -23,6 +23,7 @@ alias gnv='ga ~/.dotfiles/nvim && gcm "chore(nvim): update plugins"'
 alias gco='git checkout'
 alias gvg='git log --oneline --graph --all'
 alias gmg='git merge'
+alias gcl='git clone'
 
 # ZSHRC
 alias esh='e ~/.zshrc'
@@ -32,9 +33,6 @@ alias md='mkdir'
 alias cdp='cd ..'
 alias rmm='rm -rf'
 alias cpp='cp -rf'
-
-# SIOYEK
-alias syk='sioyek'
 
 # TREE-SITTER
 alias ts='tree-sitter'
@@ -120,18 +118,11 @@ alias opp='open -a Preview'
 # LEETCODE NVIM
 alias nl='e leetcode.nvim'
 
-# OPAM / ROCQ
-
-# LTS switch (OCaml 4.14.2)
-alias rocq-lts="opam switch rocq-lts"
-
-# Latest switch (OCaml 5.4.0)
-alias rocq-latest="opam switch rocq-latest"
-
 # GENERAL
 alias please='sudo $(fc -ln -1)'
 
 # Clean DNS chache
 alias cdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
 
+# Tailscale
 alias tailscale='/Applications/Tailscale.app/Contents/MacOS/Tailscale'
