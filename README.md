@@ -138,3 +138,10 @@ You're will be asked to enable some features:
 - Add the PATH variable: No (already handle by `stow zsh`)
 - Install HLS (haskell-language-server): Yes
 - Better integration of stack with GHCup: Yes
+
+To install `hlint`:
+
+```bash
+cabal update
+cabal install hlint
+```
