@@ -20,6 +20,7 @@ to automate software installation.
 - [Tailscale](https://tailscale.com/download)
 - [Zima Client](https://www.zimaspace.com/zimaos/download?pos=home_banner_download)
 - [Atuin](https://atuin.sh/)
+- [qutebrowser](https://qutebrowser.org/)
 
 ## Step-by-Step Installation
 
@@ -65,7 +66,7 @@ Configurations are organized into "packages" that `stow` can map:
 - `tmux/`: Session management and pane multiplexing.
 - `gitconfig/`: Global git rules
 - `starship/`: Shell prompt configurations.
-- `qutebrowser/`: Keyboard-driven web browser setup. (deprecated by brew)
+- `qutebrowser/`: Keyboard-driven web browser setup.
 
 ## SSH and GPG keys
 
