@@ -4,6 +4,6 @@ return {
   version = "1.*",
   opts = {
     invert_colors = "auto",
-    open_cmd = "qutebrowser %s",
+    open_cmd = "open -a qutebrowser %s",
   },
 }
