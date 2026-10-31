@@ -21,6 +21,7 @@ to automate software installation.
 - [Zima Client](https://www.zimaspace.com/zimaos/download?pos=home_banner_download)
 - [Atuin](https://atuin.sh/)
 - [qutebrowser](https://qutebrowser.org/)
+- [Rex](https://www.superlogical.com/rex/docs/installation)
 
 ## Step-by-Step Installation
 
