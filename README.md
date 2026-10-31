@@ -67,6 +67,7 @@ Configurations are organized into "packages" that `stow` can map:
 - `gitconfig/`: Global git rules
 - `starship/`: Shell prompt configurations.
 - `qutebrowser/`: Keyboard-driven web browser setup.
+- `yt-dlp/`: A feature-rich command-line audio/video downloader.
 
 ## Further Installation
 
