@@ -12,7 +12,7 @@
 --convert-thumbnails jpg
 --ppa "ThumbnailsConvertor+ffmpeg:-c:v mjpeg -vf crop=\"'if(gt(ih,iw),iw,ih)':'if(gt(ih,iw),iw,ih)'\""
 
--o "~/Music/raw/%(album_artist,artist,uploader)s/%(album,playlist, 'Singles')s/%(track_number,playlist_index)02d - %(title)s.%(ext)s"
+-o "~/Music/raw/%(album,playlist,'Singles')s/%(track_number,playlist_index)02d - %(title)s.%(ext)s"
 
 --windows-filenames
 --no-mtime
