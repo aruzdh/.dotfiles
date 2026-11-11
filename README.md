@@ -78,3 +78,4 @@ Check out [docs](./docs/) to install and configure:
 - [Tmux](./docs/tmux.md).
 - [Opam and Rocq](./docs/opam-rocq.md).
 - [Haskell](./docs/haskell.md).
+- [Rust](./docs/rust.md).
